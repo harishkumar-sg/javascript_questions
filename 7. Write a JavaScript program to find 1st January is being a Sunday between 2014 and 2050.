@@ -1,0 +1,6 @@
+for(var y=2014;y<=2060;y++){
+    var day=new Date(y,0,1);
+    if(day.getDay()===0) console.log(y)
+    
+    
+}
