@@ -1,0 +1,9 @@
+while(true){
+    var num= Math.random(Math.random()*101)
+    var guess =prompt();
+    if(gues==num){
+        console.log("goodwork")
+    } else {
+        console.log("wrong")
+    }
+}
